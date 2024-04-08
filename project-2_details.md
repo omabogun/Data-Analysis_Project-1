@@ -11,7 +11,7 @@ Finally, I used the cleaned data to answer the client's question by deriving the
 
 [SQL File](https://github.com/omabogun/Data-Analysis_Projects/blob/main/assets/Project_SB.sql) used for the project
 
-## IMPORTING RAW DATASETS INTO SQL SERVER MANAGEMENT STUDIO
+### IMPORTING RAW DATASETS INTO SQL SERVER MANAGEMENT STUDIO
 
 I started by importing the raw datasets into SQL Server Management Studio
 
@@ -30,4 +30,36 @@ I started by importing the raw datasets into SQL Server Management Studio
 ![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql7.png "SQL Image")
 
 ![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql8.png "SQL Image")
+
+
+### RENAMING THE IMPORTED TABLES AND DROPPING IRRELEVANT COLUMNS
+
+I renamed the imported tables to more user friendly names using the syntax below: 
+
+<i>sp_rename 'dbo.Content$', 'content'<br>
+sp_rename 'dbo.Reactions$', 'reactions'<br>
+sp_rename 'dbo.ReactionTypes$', 'reaction_types'</i>
+
+After that, I commenced cleaning the Content table by removing columns that were not needed to answer the client's request.
+
+I used the syntax below to drop irrelevant columns from the content table:
+
+<i>Alter Table content<br>
+Drop column "F1", "User ID", "URL"</i>
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql9.png "SQL Image")
+
+
+
+### CLEANING THE CONTENT TABLE: REMOVING QUOTATION MARKS FROM SOME RECORDS
+
+Some records in the Category column of the content table had quotation marks.  I removed the quotation marks using the syntax below:
+
+<i>update content<br>
+set "Category" = replace(Category, '"', '')</i>
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql12.png "SQL Image")
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql13.png "SQL Image")
+
 
