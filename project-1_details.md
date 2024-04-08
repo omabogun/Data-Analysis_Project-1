@@ -2,4 +2,4 @@
 
 ## Data Model Provided
 
-![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project1_msexcel1.png "Logo Title Text 1")
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/data_model.png "Logo Title Text 1")
