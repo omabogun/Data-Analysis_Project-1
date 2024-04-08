@@ -15,5 +15,19 @@ Finally, I used the cleaned data to answer the client's question by deriving the
 
 I started by importing the raw datasets into SQL Server Management Studio
 
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql1.png "SQL Image")
 
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql2.png "SQL Image")
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql3.png "SQL Image")
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql4.png "SQL Image")
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql5.png "SQL Image")
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql6.png "SQL Image")
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql7.png "SQL Image")
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql8.png "SQL Image")
 
