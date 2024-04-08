@@ -11,4 +11,17 @@ These are:
   <li>The ReactionTypes Table</li>
 </ol>
 
-![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/data_model.png "Logo Title Text 1")
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/data_model.png "Data Model")
+
+### Cleaning the Datasets
+
+To clean the datasets I started by removing columns which were not needed to answer the business question from each of the tables.  In the content table I removed the USER ID and URL columns.
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project1_msexcel1.png "The Content Table")
+
+The content table contained some records with quotation marks (") in the Category column. I had to clean this by removing the quotation marks using the Find and Replace feature in MS Excel.
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project1_msexcel2.png "The Content Table")
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project1_msexcel3.png "The Content Table")
+
