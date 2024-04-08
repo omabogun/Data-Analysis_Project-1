@@ -113,12 +113,9 @@ I then retrieved the required information for the client.
 
 ![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql20.png "SQL Image")
 
-![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql21.png "SQL Image")
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql121.png "SQL Image")
 
 
-
-
-
-
+## END OF PROJECT 2
 
 
