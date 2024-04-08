@@ -68,7 +68,7 @@ I also checked for blank / null records in the content table, but there was none
 
 ### CLEANING THE REACTIONS TABLE
 
-I also cleaned the reactions table by removing the columns that were not needed, checking for blank / null records and removing the blank / null records. There were some null records in the Reaction Type  column that were removed. 
+I also cleaned the reactions table by removing the columns that were not needed, checking for blank / null records and removing the blank / null records. There were some null records in the Reaction Type  column that were removed.  I also renamed the column "Type" to "Reaction Type" in the reactions table.
 
 ![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql10.png "SQL Image")
 
@@ -77,6 +77,29 @@ I also cleaned the reactions table by removing the columns that were not needed,
 ![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql14.png "SQL Image")
 
 ![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql15.png "SQL Image")
+
+###  USING SQL JOINS TO MERGE THE THREE TABLES
+
+I used the reactions table as the base table and merged the relevant columns from the content and reactiontypes tables.  I saved the output into another table called reactions_merged.
+
+Below is the syntax I used:
+
+<i>Select reactions."Content ID", reactions."Reaction Type", reactions."Datetime", content."Content Type", content."Category", reaction_types."Sentiment", reaction_types."Score"<br>
+Into reactions_merged<br>
+From reactions<br>
+Left Join content<br>
+on reactions."content ID" = content."content ID"<br>
+Left Join reaction_types<br>
+on reactions."Reaction Type" = reaction_types."reaction type"</i>
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql17.png "SQL Image")
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql18.png "SQL Image")
+
+
+
+
+
 
 
 
