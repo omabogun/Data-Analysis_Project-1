@@ -8,3 +8,5 @@ In this project a popular social media organization who were considering doing a
 Then, I had to clean the datasets and merge them to prepare the data for analysis.
 
 Finally, I used the cleaned data to answer the client's question by deriving the top five content categories. I used SQL as the primary tool for cleaning, modelling and analyzing the data.
+
+[SQL File](https://github.com/omabogun/Data-Analysis_Projects/blob/main/assets/Project_SB.sql) used for the project
