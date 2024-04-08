@@ -13,4 +13,7 @@ Finally, I used the cleaned data to answer the client's question by deriving the
 
 ## IMPORTING RAW DATASETS INTO SQL SERVER MANAGEMENT STUDIO
 
+I started by importing the raw datasets into SQL Server Management Studio
+
+
 
