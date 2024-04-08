@@ -1,6 +1,8 @@
 # Data Analysis Projects
 
-Below are links to different projects I have done on Data Analysis
+Below are links to different Data Analysis projects I have done:
 
 
-### [Project1: See Project Details Here](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/project-1_details.md)
+### [Project 1](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/project-1_details.md)
+### [Project 2](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/project-1_details.md)
+### [Project 3](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/project-1_details.md)
