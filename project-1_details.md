@@ -74,7 +74,7 @@ To answer the business question posed by the client, I sorted the Categories in 
 
 ### Extracting the Final result for the client
 
-I then copied the final result showing the Top Five Categories in a separate worksheet for the client.
+I then copied the final result showing the TOP FIVE CONTENT CATEGORIES in a separate worksheet for the client.
 
 ## END OF PROJECT-1
 
