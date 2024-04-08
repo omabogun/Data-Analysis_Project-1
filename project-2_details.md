@@ -64,8 +64,19 @@ set "Category" = replace(Category, '"', '')</i>
 
 I also checked for blank / null records in the content table, but there was none.
 
-![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql12b.png "SQL Image")
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql12a.png "SQL Image")
 
 ### CLEANING THE REACTIONS TABLE
+
+I also cleaned the reactions table by removing the columns that were not needed, checking for blank / null records and removing the blank / null records. There were some null records in the Reaction Type  column that were removed. 
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql10.png "SQL Image")
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql11.png "SQL Image")
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql14.png "SQL Image")
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql15.png "SQL Image")
+
 
 
