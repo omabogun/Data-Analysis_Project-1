@@ -68,7 +68,10 @@ I also checked for blank / null records in the content table, but there was none
 
 ### CLEANING THE REACTIONS TABLE
 
-I also cleaned the reactions table by removing the columns that were not needed, checking for blank / null records and removing the blank / null records. There were some null records in the Reaction Type  column that were removed.  I also renamed the column "Type" to "Reaction Type" in the reactions table.
+I cleaned the reactions table by removing the columns that were not needed, checking for blank / null records and removing the blank / null records. There were some null records in the Reaction Type column that were removed.  I also renamed the column "Type" to "Reaction Type" in the reactions table using the syntax below:
+
+<i>sp_rename 'Reactions.Type', 'Reaction Type'<br>
+sp_rename 'reaction_types.Type', 'Reaction Type'</i>
 
 ![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql10.png "SQL Image")
 
@@ -95,6 +98,22 @@ on reactions."Reaction Type" = reaction_types."reaction type"</i>
 ![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql17.png "SQL Image")
 
 ![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql18.png "SQL Image")
+
+###  QUERYING FOR THE TOP FIVE CONTENT CATEGORIES REQUESTED BY THE CLIENT
+
+Finally I used the syntax below to query for the Top 5 content categories and saved this into a new table called top_five_categories.
+
+<i>Select DISTINCT TOP(5) Category, SUM(score) as TotalScore<br>
+Into top_five_categories<br>
+From reactions_merged<br>
+Group By Category<br>
+Order By TotalScore Desc</i>
+
+I then retrieved the required information for the client.
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql20.png "SQL Image")
+
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql21.png "SQL Image")
 
 
 
