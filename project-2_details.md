@@ -64,6 +64,7 @@ set "Category" = replace(Category, '"', '')</i>
 
 I also checked for blank / null records in the content table, but there was none.
 
+![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/project2_sql12b.png "SQL Image")
 
 ### CLEANING THE REACTIONS TABLE
 
