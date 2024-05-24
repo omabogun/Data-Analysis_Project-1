@@ -11,7 +11,7 @@ In this project, a popular social media company who were considering doing an IP
 
 I started with cleaning the data and merged them to prepare the data for analysis.
 
-Finally, I used the clean data to answer the client's business question by deriving the top five content categories. I completed the project using three different tools for cleaning, modelling and analysing the data i.e. MS-Excel, SQL and Python.
+Finally, I used the clean data to answer the client's business question by deriving the top five content categories. I completed the project using three different tools for cleaning, modelling and analysing the data i.e. [MS-Excel](https://github.com/omabogun/Data-Analysis_Projects/blob/main/project-1_details.md), [SQL](https://github.com/omabogun/Data-Analysis_Projects/blob/main/project-2_details.md) and [Python](https://github.com/omabogun/Data-Analysis_Projects/blob/main/project-3_details.md).
 
 
 ## Data Model:
@@ -30,6 +30,6 @@ On studying the data model, I realized that only three of the datasets are requi
 Below are links to how the Datasets were cleaned using three methods:
 
 
-### [Data cleaning, modelling and analysis using MS Excel](https://github.com/bukkywins/Data-Analysis_Project-1/blob/main/Project-1_Details.md)
-### [Data cleaning, modelling and analysis using SQL](https://github.com/bukkywins/Data-Analysis_Project-1/blob/main/Project-2_Details.md)
-### [Data cleaning, modelling and analysis using Python](https://github.com/bukkywins/Data-Analysis_Project-1/blob/main/Project-3_Details.md)
+### [Data cleaning, modelling and analysis using MS Excel](https://github.com/omabogun/Data-Analysis_Projects/blob/main/project-1_details.md)
+### [Data cleaning, modelling and analysis using SQL](https://github.com/omabogun/Data-Analysis_Projects/blob/main/project-2_details.md)
+### [Data cleaning, modelling and analysis using Python](https://github.com/omabogun/Data-Analysis_Projects/blob/main/project-3_details.md)
