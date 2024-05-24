@@ -13,6 +13,7 @@ Then, I had to clean the datasets and merge them to prepare the data for analysi
 
 Finally, I used the cleaned data to answer the client's question by deriving the top five content categories.  I used Microsoft Excel as the primary tool for cleaning, modelling and analyzing the data.
 
+#
 
 ### Cleaning the Datasets
 
