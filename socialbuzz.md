@@ -1,4 +1,9 @@
-# Data cleaning, modelling and analysis using MS Excel, SQL and Python
+<img src="https://github.com/omabogun/Data-Analysis_Projects/blob/main/images/thesocialbuzzproject.jpg" 
+alt="IMAGE ALT TEXT HERE" width="33%" height="Auto" border="10" />
+
+# Data Cleaning, Modelling and Analysis With MS Excel, SQL and Python
+
+
 
 ## INTRODUCTION
 
@@ -6,7 +11,7 @@ In this project, a popular social media company who were considering doing an IP
 
 I started with cleaning the data and merged them to prepare the data for analysis.
 
-Finally, I used the clean data to answer the client's business question by deriving the top five content categories. I used Microsoft Excel as the primary tool for cleaning, modelling and analysing the data 
+Finally, I used the clean data to answer the client's business question by deriving the top five content categories. I completed the project using three different tools for cleaning, modelling and analysing the data i.e. MS-Excel, SQL and Python.
 
 
 ## Data Model:
