@@ -1,5 +1,9 @@
+[-- HOME --](https://github.com/omabogun)
+
+<p align="center">
 <img src="https://github.com/omabogun/Data-Analysis_Projects/blob/main/images/thesocialbuzzproject.jpg" 
 alt="IMAGE ALT TEXT HERE" width="33%" height="Auto" border="10" />
+</p>
 
 # Data Cleaning, Modelling and Analysis With MS Excel, SQL and Python
 
