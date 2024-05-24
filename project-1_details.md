@@ -14,20 +14,6 @@ Then, I had to clean the datasets and merge them to prepare the data for analysi
 Finally, I used the cleaned data to answer the client's question by deriving the top five content categories.  I used Microsoft Excel as the primary tool for cleaning, modelling and analyzing the data.
 
 
-
-### The Data Model:
-
-On examining the data model below I realized that only three of the datasets would be required to answer the client's question.
-
-These are:
-<ol>
-  <li>The Content Table</li>
-  <li>The Reaction Table</li>
-  <li>The ReactionTypes Table</li>
-</ol>
-
-![alt text](https://github.com/omabogun/Data-Analysis_Project-1/blob/main/images/data_model.png "Data Model")
-
 ### Cleaning the Datasets
 
 To clean the datasets I started by removing columns which were not needed to answer the business question from each of the tables.  In the content table I removed the USER ID and URL columns.
