@@ -1,3 +1,8 @@
+<p align='right'>
+<a href='https://github.com/omabogun'> [ HOME ]</a>
+<a href='https://github.com/omabogun/Data-Analysis_Projects/blob/main/socialbuzz.md'> [ BACK ]</a>
+</p>
+
 # <p align='center'>PROJECT 2: USING SQL TO CLEAN DATA, MODEL DATA AND ANALYZE DATA TO GENERATE TOP FIVE CONTENT CATEGORIES FOR A CLIENT
 
 
